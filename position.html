@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box {
+      background-color: palevioletred;
+      height: 200px;
+      width: 250px;
+      border: 5px solid blueviolet;
+    }
+
+    .specific {
+      position: relative;
+      left: 30px;
+      bottom: 100px;
+    }
+
+    .another-specific {
+      position: relative;
+      left: 40px;
+      top: 140px;
+      z-index: 1;
+    }
+
+    .another-specific2 {
+      position: absolute;
+      left: 100px;
+      top: 50px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <h1>this is css position</h1>
+  <h2>there are total 5 types of position</h2>
+  <section>
+    <div class="box another-specific">
+      <h1>this is 1-nth heading</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, sapiente exercitationem vel ullam quidem
+        voluptas possimus dolorum impedit autem nihil nemo delectus! Facere debitis odit rem ipsa vitae culpa
+        consectetur.</p>
+    </div>
+    <div class="box">
+      <h1>this is 2-nth heading</h1>
+      <p>Corrupti iure, harum labore omnis deleniti quod quos molestias odio rerum, accusantium iusto voluptate aliquid
+        aspernatur officia expedita, laudantium perspiciatis. Facilis atque doloribus velit sed recusandae quas dicta
+        beatae asperiores.</p>
+    </div>
+    <div class="box specific">
+      <h1>this is 3-nth heading</h1>
+      <p>Libero ex quo tenetur veritatis animi aliquid quae hic neque voluptatum? Odio iure ducimus quidem veniam,
+        quisquam repudiandae ipsa reprehenderit quo laboriosam pariatur! Quaerat, adipisci quod dolorem ad odio
+        voluptates!</p>
+    </div>
+    <div class="box">
+      <h1>this is 4-nth heading</h1>
+      <p>Neque, cumque reprehenderit animi odit recusandae est veniam pariatur aspernatur dolor commodi sit fugiat ipsa
+        nostrum iste ab. Nam ullam fugiat corrupti aperiam id itaque culpa qui, velit iure earum.</p>
+    </div>
+    <div class="box another-specific2">
+      <h1>this is 5-nth heading</h1>
+      <p>Dicta ut hic ipsum qui fugit fugiat a blanditiis distinctio reprehenderit eveniet accusamus alias expedita
+        laudantium commodi, ipsa odio sapiente, quidem nostrum necessitatibus error. Autem nihil et quasi animi impedit.
+      </p>
+    </div>
+  </section>
+
+</body>
+
+</html>
